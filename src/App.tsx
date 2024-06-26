@@ -1,9 +1,10 @@
+import Home from "./pages/Home";
 
 
 function App() {
   return (
-    <div className="bg-red-100">
-      Hello world
+    <div className="font-montserrat">
+      <Home />
     </div>
   );
 }
