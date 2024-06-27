@@ -1,7 +1,7 @@
 {
   "name": "technew",
   "version": "0.1.0",
-  "homepage": "https://maxzeno.github.io/technew",
+  "homepage": "https://Maxzeno.github.io/technew",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
