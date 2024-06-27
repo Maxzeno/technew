@@ -7,7 +7,7 @@ const TodoItems: React.FC = () => {
 
   const handleAdd = () => {
     if (inputRef.current) {
-      setItems((prev) => [...prev, inputRef.current!.value]);
+      setItems((prev) => [inputRef.current!.value, ...prev, ]);
     }
   };
 

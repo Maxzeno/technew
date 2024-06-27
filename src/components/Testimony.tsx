@@ -21,7 +21,7 @@ function Testimony() {
         <div className="ml-auto">
           <div className="relative">
             <div className="bg-[#324151] h-[500px] w-[500px] rounded-3xl"></div>
-            <img className="h-[500px] w-[500px] absolute top-[40px] right-[40px] rounded-3xl" src={testimonyImage} alt="testimony-image" />
+            <img className="h-[500px] w-[500px] absolute top-[40px] right-[40px] rounded-3xl object-cover" src={testimonyImage} alt="testimony-image" />
           </div>
         </div>
 
