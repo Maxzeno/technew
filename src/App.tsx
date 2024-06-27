@@ -6,7 +6,7 @@ import Todo from "./pages/Todo";
 function App() {
   return (
     <div className="font-montserrat">
-      <BrowserRouter>
+      <BrowserRouter basename="/technew">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/todo" element={<Todo />} />
