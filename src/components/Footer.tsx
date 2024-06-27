@@ -11,16 +11,16 @@ function Footer() {
             <div className="text-[18px] font-medium leading-[24px]">Copyrights @ Progfams 2024</div>
           </div>
           <div className="col-span-1">
-            <a href="/" className="text-[20px] font-medium leading-[24px] block mb-7">Home</a>
-            <a href="/" className="text-[20px] font-medium leading-[24px] block mb-7">About Us</a>
-            <a href="/" className="text-[20px] font-medium leading-[24px] block">Service</a>
+            <a href="/" className="text-[20px] font-medium leading-[24px] hover:text-[#4393D8] block mb-7">Home</a>
+            <a href="/" className="text-[20px] font-medium leading-[24px] hover:text-[#4393D8] block mb-7">About Us</a>
+            <a href="/" className="text-[20px] font-medium leading-[24px] hover:text-[#4393D8] block">Service</a>
           </div>
           <div className="col-span-1">
-            <a href="/" className="text-[20px] font-medium leading-[24px] block mb-7">Works</a>
-            <a href="/" className="text-[20px] font-medium leading-[24px] block mb-7">Boot Camp</a>
+            <a href="/" className="text-[20px] font-medium leading-[24px] hover:text-[#4393D8] block mb-7">Works</a>
+            <a href="/" className="text-[20px] font-medium leading-[24px] hover:text-[#4393D8] block mb-7">Boot Camp</a>
           </div><div className="col-span-1">
-            <a href="/" className="text-[20px] font-medium leading-[24px] block mb-7">Contribution</a>
-            <a href="/" className="text-[20px] font-medium leading-[24px] block">Blog</a>
+            <a href="/" className="text-[20px] font-medium leading-[24px] hover:text-[#4393D8] block mb-7">Contribution</a>
+            <a href="/" className="text-[20px] font-medium leading-[24px] hover:text-[#4393D8] block">Blog</a>
           </div>
           <div>
             <div className="text-[20px] font-medium leading-[24px] block mb-7">Contact</div>
