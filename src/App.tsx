@@ -1,17 +1,16 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Home from "./pages/Home";
 import Todo from "./pages/Todo";
-
 
 function App() {
   return (
     <div className="font-montserrat">
-      <BrowserRouter basename="/technew">
+      <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/todo" element={<Todo />} />
+          <Route path='/' element={<Home />} />
+          <Route path='/todo' element={<Todo />} />
         </Routes>
-      </BrowserRouter>
+      </Router>
     </div>
         
   );
